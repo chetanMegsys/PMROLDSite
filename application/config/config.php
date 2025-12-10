@@ -474,15 +474,8 @@ $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = TRUE;
 $config['csrf_exclude_uris'] = array();
 
-// // Stripe Config.
-// //Testing
-// //$config['stripe_publishable_key'] = 'pk_test_51OYsTqAaq7JBewhTYzqsc0nKHWkkZZPxDLLqDkcUllg59Uk1lhWOEvypnqKalw13MMXs4IwNHMxyFImSbUVSVRPS00SIDViLuP';
-// //$config['stripe_secret_key'] = 'sk_test_51OYsTqAaq7JBewhTceJQEFurRYcJDBGHIfIoSnLKHdLCYRLo7tnNsOO7WHgTHguc7INLebbf4xSQJ8q2XFFAUPsk00FBsX2can';
-// //Production
-// $config['stripe_publishable_key'] = 'pk_live_51OYsTqAaq7JBewhTQPt64hkaM3ZuqioPzBzUxnijm9fHOgCzGTynV1kr5n8ll9wCoSlLXNWZWGB8hHSsbqcakJHp00d251BjwF';
-// //$config['stripe_secret_key'] = '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';
-// $config['stripe_secret_key'] = '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';
-
+$config['stripe_secret_key'] = '';
+$config['stripe_publishable_key'] = '';
 
 /*
 |--------------------------------------------------------------------------

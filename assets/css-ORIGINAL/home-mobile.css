@@ -1,0 +1,81 @@
+﻿.mediaReleaseSec, .marketNewsSec ,.nextGenSec{position:relative;z-index:1;}
+.aboutSec .headIcon{background-position:-35px -12px;}
+.nextGenSec .headIcon{background-position:-35px -202px;}
+.researchSec .headIcon{background-position:-35px -298px;}
+.mediaReleaseSec .headIcon{background-position:-35px -400px;}
+.trustSec .headIcon{background-position:-35px -496px;}
+.marketNewsSec .headIcon{background-position:-35px -592px;}
+.aboutContent .btn{margin-top:20px;}
+.exploreSec h3{font-size:18px;text-align:left;}
+.exploreSec li{width:49%;float:left;}
+.marketNewsBox{border:1px solid #ccc;}
+.txtLink{font-size:18px;margin-bottom:18px;display:block;color:#000;font-weight:500;}
+.trustBox{border:1px solid #b1b1b1;position:relative;}
+.trustSecRow .trustBox{margin:26px auto;width:96%;}
+.trustBox .numb{background-color:#007aa8;padding:0 10px;border-radius:100%;color:#fff;position:absolute;width:28px;height:28px;top:-15px;left:-15px;font-size:16px;}
+.trustBox .compName span:before{content:"";background-color:#00aae0;width:40px;height:2px;display:inline-block;vertical-align:middle;margin-right:10px;}
+.mediaReleaseSec .card:hover{box-shadow:0px 15px 20px rgba(15, 60, 91, 0.08);transition: all .3s ease;}
+.mediaReleaseSec .card-body{min-height:300px;}
+.mediaReleaseSec .card-body .txtLink{font-size:16px;}
+.boxBlue{background-color:#337ab7;}
+.boxGreen{background-color:#4a5c82;}
+.resDemandBox h3{font-size:18px;margin-top:0;}
+.multiClientSec h3{font-size:18px;}
+.colorBox h3{font-size:16px;}
+.multiClientSec p{max-width:800px;margin:auto;}
+.multiClientSec svg, .mediaRelList svg{vertical-align:middle;}
+.multiClientBox a,
+.colorBox,
+.colorBox:hover{color:#212529;}
+.multiClientBox a.txtBlue{color:#337ab7;}
+.multiClientBox a:not(.titleLink){display:inline-block;line-height:30px;position:absolute;bottom:8px;}
+.multiClientSec h3::before{content:"";display:inline-block;width:10px;height:0;margin-right:2px;vertical-align:baseline;border-top:6px dashed transparent;border-left:10px solid #ccc;border-bottom:6px solid transparent;margin-left:-14px;}
+.multiClientSec h3::after{content:"";border:1px solid #00aae0;display:block;width:70px;margin:15px 0;}
+.multiClientBox{position:relative;border-radius:10px;margin:40px 5px;background-color:#fff;transition:all .3s ease;box-shadow:5px 5px 20px rgba(15, 60, 91, 0.18);min-height:340px;padding:15px 15px 0 15px;}
+.multiClientBox:hover{}
+.multiClientBox:hover a{color:#337ab7;}
+.multiClientBox:hover h3::before{content:"";border-left:10px solid #fff;}
+.multiClientBox:hover h3::after{border:1px solid #fff;}
+.multiClientIcon{background-image:url(../images/cat-sprite.png);height:65px;width:58px;display:inline-block;background-color:#00aae0;border-radius:10px 10px 0;}
+.multiClientBox:hover .multiClientIcon{background-color:#fff;}
+.multiClientIcon.cat-24{background-position:-108px 6px;}
+.multiClientBox:hover .cat-24{background-position:-171px 6px;}
+.multiClientIcon.cat-22{background-position:-108px -52px;}
+.multiClientBox:hover .cat-22{background-position:-168px -52px;}
+.multiClientIcon.cat-23{background-position:-108px -117px;}
+.multiClientBox:hover .cat-23{background-position:-171px -117px;}
+.multiClientIcon.cat-38{background-position:-108px -175px;}
+.multiClientBox:hover .cat-38{background-position:-171px -175px;}
+.multiClientIcon.cat-33{background-position:-108px -235px;}
+.multiClientBox:hover .cat-33{background-position:-171px -235px;}
+.multiClientIcon.cat-31{background-position:-108px -296px;}
+.multiClientBox:hover .cat-31{background-position:-171px -296px;}
+.multiClientIcon.cat-39{background-position:-108px -352px;}
+.multiClientBox:hover .cat-39{background-position:-171px -352px;}
+.multiClientIcon.cat-29{background-position:-108px -412px;}
+.multiClientBox:hover .cat-29{background-position:-171px -412px;}
+.colorBox{height:200px;display:block;padding:36px 10px;width:100%;text-align:center;}
+.colorBox h3::after{content:"";border-bottom:2px solid;width:70px;display:block;margin:8px auto;}
+.colorBox-22{background-color:#79c9b3;}
+.colorBox-23{background-color:#c8ad8f;}
+.colorBox-24{background-color:#619cd0;}
+.colorBox-29{background-color:#aeb3be;}
+.colorBox-39{background-color:#f8b238;}
+.colorBox-31{background-color:#79c9b3;}
+.colorBox-33{background-color:#91c300;}
+.nextGenRow [class*="col-"]{margin-bottom:15px;padding:0 7.5px;}
+.nextGenIcon{background-image:url(../images/home-sprite.png);height:70px;width:70px;display:block;margin:auto;}
+.nextGenIcon.cat-22{background-position:-270px -6px;}
+.nextGenIcon.cat-23{background-position:-270px -82px;}
+.nextGenIcon.cat-24{background-position:-270px -154px;}
+.nextGenIcon.cat-29{background-position:-270px -330px;}
+.nextGenIcon.cat-31{background-position:-270px -502px;}
+.nextGenIcon.cat-33{background-position:-270px -416px;}
+.nextGenIcon.cat-39{background-position:-270px -236px;}
+.nextGenIcon.cat-38{background-position:-273px -602px;}
+@media (max-width:767px){.mediaRelList{max-width:100%;margin:20px auto;}
+.mediaReleaseSec .card-body {min-height:100%;}
+}
+@media (max-width:576px){
+	.exploreSec li{width:100%;float:none;}
+}

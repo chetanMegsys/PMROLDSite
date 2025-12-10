@@ -1,0 +1,157 @@
+/* Tab Section Css */
+.backgroundgray{height: 43px; width: 100%; background-color: #dcdee6; margin-bottom: -43px; } 
+.report-details-tabs .nav-tabs{border-bottom: none; border:none; }
+.report-details-tabs .nav-tabs .nav-link{border-bottom: none; border:none; padding: 9px 16px; }
+.report-details-tabs .nav-tabs .nav-link.active{background: none; }
+.report-details-tabs .nav-link.active {border-bottom: 3px solid #ff571e; font-weight: 400; }
+.report-details-tabs .tab-content p,.report-details-tabs .tab-content ul li {font-size: 16px; color: #000; line-height: 32px; /* font-weight: 300;*/ }
+.report-details-tabs .tab-content #TOC p a{
+   /*color:#3021c6; */
+   color: #0046b3;
+}
+.report-details-tabs .tab-content table tbody tr td p {margin: 0; line-height: unset; font-weight: normal; }
+.report-details-tabs .tab-content table tbody tr td strong {}
+.report-details-tabs .tab-content table tbody tr td a {color: #3021c6}
+.report-details-tabs table tbody tr:nth-of-type(odd) {background-color: rgba(0,0,0,.05); }
+.tab-pane p img{display: block;}
+
+/* faq css start */
+.reportFaqs .card{border:0}
+.reportFaqs .card-header{border:0}
+.reportFaqs .card-header button{font-size:15px;border-radius:0;padding:8px 30px 8px 12px;border-left:3px solid transparent;white-space:inherit;position:relative;}
+.reportFaqs .card-header h5:not(.collapsed) button{border-left:3px solid #ff9341;background:#f7f7fa}
+.reportFaqs .card-header h5 .bi-dash,.reportFaqs .card-header h5:not(.collapsed) .bi-plus{display:none}
+.reportFaqs .card-header h5.collapsed .bi-plus,.reportFaqs .card-header h5:not(.collapsed) .bi-dash{display:block}
+.reportFaqs .card-header button:focus{box-shadow:none}
+.reportFaqs .card-header h5 button span{position:absolute;right:-5px;top:30%}
+.reportFaqs .card-header h5 button span svg{vertical-align:middle}
+.reportFaqs .card-header h5:not(.collapsed) button span{transform:rotate(180deg)}
+.reportFaqs .card-body{padding:10px 20px 0}
+.reportFaqs .card-body p{font-size:15px;margin:0;font-weight:300}
+.report-details-tabs .CTA-report-sample{background-color: #e5e5e5; padding: 30px 10px; border-radius: 10px; border: 1px solid #bfcac5; }
+.report-details-tabs .CTA-report-sample .btn-freeReportSample{border-radius: 30px; /*background-color: #f44336;*/background-color: #ffa41c; border-color: #ffa41c; padding: 14px 24px; color: #111; width: 260px;/* height: 39px;*/ }
+.report-details-tabs .CTA-research-methodo{background-color:  #e5fff2; padding: 30px 10px; border-radius: 10px; border: 1px solid #d7eae1; }
+.report-details-tabs .CTA-research-methodo .btn-methodology{border-radius: 30px; /*background-color: #00bcd4;*/background-color: #ffc107; border-color: #ffc107; color: #111; padding: 14px 24px; width: 260px; /*height: 39px;*/ }
+.let-connect .analyst-info img {position: relative; top: -33px; left: 3px; border-radius: 50%; border: 2px solid #fff; }
+.report-details-tabs  .CTA-lets-connect {/* background: url(../image/lets-connect-dots.png) #ececec no-repeat; */ background-image: linear-gradient(180deg, #fafafa , #dfdddd); padding: 30px 10px; border-radius: 10px; /* background-position: -51px 8px; */ border: 1px solid #dad2d2; }
+.report-details-tabs  .CTA-lets-connect  img{border-radius: 50%; border:3px solid #fff; /*  background: url(../image/lets-connect-dots.png) no-repeat;*/
+}
+.report-details-tabs .linkedin{background-image: url(../image/socialIcons-sprite.svg); width: 22px; height: 20px; background-size: 80px; background-position: 51px; display: inline-block; position: relative; left: 5px; top: 5px;}
+.report-details-tabs  .btn-askexpert {border-radius: 30px; /*background-color: #68f2ce;*/background-color: #ffc107; color: #111; border: 2px solid #ffffff; padding: 14px 45px; width: 260px; }
+.report-details-tabs .CTA-customizeRep{background-color:  #daeff2; padding: 30px 10px; border-radius: 10px; border: 1px solid #bfcac5; }
+.report-details-tabs .btn-customizeRep{padding: 14px 16px; /*background-color: #08d5f1;*/background-color: #ffc107; border-color: #ffc107; border-radius: 30px; color: #111; width: 260px;/* height: 39px;*/ }
+.report-details .report-heading .btn-free-sample {border-radius: 50px; /*background-color:#ff6230;*/background-color: #ffa41c; padding: 14px 28px; border-color: #ffa41c; color: #111;font-weight: 500;
+}
+.report-details .report-heading .btn-connect-Auth{background-color: #fff; color: #b62e07; border: 2px solid #b62e07; padding: 14px 28px; border-radius: 50px; width: 268.55px; }
+.report-details-tabs .tab-content .CTA-banner1 .btn-chapters{border-radius: 21px; background-color: #ffd814; border: 1px solid #ffffff; padding: 9px 25px; }
+.report-details-tabs .tab-content .CTA-banner2{width: 718px; height: 138px; border-radius: 10px; background-color: #01a58a; padding: 15px 35px; margin: 0 auto; }
+.report-details-tabs .tab-content .CTA-banner2 p, .report-details-tabs .tab-content .CTA-banner3 p , .report-details-tabs .tab-content .CTA-banner4 p{display: inline-block;vertical-align: middle;}
+.report-details-tabs .tab-content .CTA-banner2  .btn-customizeRep{border-radius: 21px; background-color: #87f8ae; border-color: #87f8ae; padding: 9px 20px; }
+.report-details-tabs .tab-content .CTA-banner2  .btn-customizeRep:hover{background-color: #fff; border-color: #87f8ae; color: #01a58a; }
+.report-details-tabs .tab-content .CTA-banner3{background-image: url(../image/cta-banner-img-3.png); background-repeat: no-repeat; padding: 15px 35px; width: 718px; height: 138px; margin: 0 auto;}
+.report-details-tabs .tab-content .CTA-banner3  .btn-Regionalrep{border-radius: 21px; background-color: #ffd814; border-color: #ffd814; padding: 9px 20px; }
+.report-details-tabs .tab-content .CTA-banner3  .btn-Regionalrep:hover{background-color: #fff; border:2px solid #ffd814; color: #171717; }
+.report-details-tabs .tab-content .CTA-banner4{background-image: url(../image/talk-to-analyst-img.png); background-repeat: no-repeat; padding: 15px 35px; width: 718px; height: 138px; margin: 0 auto; border-radius: 10px; }
+.report-details-tabs .tab-content .CTA-banner4  .btn-askexpert{width: 189px; height: 41px; border-radius: 21px; background-color: #00aae0; border: 2px solid #ffffff; padding: 9px 45px; }
+.report-details-tabs .tab-content .CTA-banner5{background-image: url(../image/cta-downloadbg.png); background-repeat: no-repeat; padding: 15px 35px; width: 718px; height: 138px; margin: 0 auto; border-radius: 10px; }
+.report-details-tabs .tab-content .CTA-banner5  .btn-download{border-radius: 21px; background-color: #ffffff; border: 1px solid #ff6d02; color: #ff6d02; padding: 9px 45px; }
+.report-details-tabs .tab-content .bottom-companies .outer-border{border: 1px solid #e1e1e1;border-radius: 8px;padding: 11px;background-color: #f6f6f6; }
+.report-details-tabs .tab-content .bottom-companies .outer-border .company-head{background: #ffff; display: inline-block; padding: 0px 15px; border: 1px solid #e1e1e1; border-radius: 6px; position: absolute; top: -16px; left: 69px; font-size: 14px; font-weight: 500; }
+.report-details-tabs .report-heading .btn-free-sample {border-radius: 10px; background-color: #ffa41c; padding: 9px 32px; border-color: #ffa41c; }
+.report-details-tabs .right-side-section .right-boxes {border-radius: 10px; background-color: #ffffff; border: 1px solid #dfdfdf; }
+.report-details-tabs .right-side-section .get-started-box .btn-purchesReport{border-radius: 30px; background-color: #ffd713; border-color: #ffd713; padding:14px 42px; }
+.reportBannerBtns .reportrBtns .btn-purchesReport{border-radius: 30px; background-color: #ffd713; border-color: #ffd713; padding:14px 42px; }
+.report-details-tabs .right-side-section .Customization-box .btn-Customization {color: #2f6f03; border: 2px solid #2f6f03; border-radius: 30px!important; text-decoration: none; padding: 14px 20px; }
+.report-details-tabs .right-side-section .quickContact .contactList {padding-top: 12px; padding-bottom: 12px; border-bottom: 1px dashed #a5a5a5; }
+.report-details-tabs .right-side-section .quickContact .contactList a {text-decoration: none; }
+.report-details-tabs .right-side-section .quickContact .quickContactIMG {background-image: url(../image/quick-contact.svg); width: 22px; height: 22px; display: inline-block; background-repeat: no-repeat; background-size: cover; }
+.report-details-tabs .right-side-section .quickContact .whatsapp .quickContactIMG {background-position: 0 0; }
+.report-details-tabs .right-side-section .quickContact .contact1 .quickContactIMG {background-position: 0 -46px; }
+.report-details-tabs .right-side-section .quickContact .contact2 .quickContactIMG {background-position: 0 -85px; }
+.report-details-tabs .right-side-section .quickContact .contact3 .quickContactIMG {background-position: 0 -128px; height: 23px; }
+.report-details-tabs .right-side-section .quickContact .contact4 .quickContactIMG {background-position: 0 -170px; }
+.report-details-tabs .right-side-section .quickContact .quickContactText {padding-left: 20px; }
+.report-details-tabs .right-side-section .greatplace-certi{background-image: url(../image/greatplace-certi-bg.png);}
+.rainbow {width: 400px; height: 300px; border-radius: 10px; padding: 2rem; margin: auto; display: grid; place-content: center; text-align: center; font-size: 1.5em; --border-size: 0.3rem; border: var(--border-size) solid transparent; /* Paint an image in the border */ border-image: conic-gradient(from var(--angle), #d53e33 0deg 90deg, #fbb300 90deg 180deg, #377af5 180deg 270deg, #399953 270deg 360deg ) 1 stretch; background: rgb(255 255 255 / var(--opacity)); }
+  
+/** show a warning in browers that don't support it **/
+.warning {margin: 2em; padding: 1em; border: 1px solid #ccc; }
+.warning p {margin: 0; padding: 0; text-align: center; }
+/* Animate when Houdini is available */
+@supports (background: paint(houdini)) {
+@property --opacity {
+  syntax: "<number>";
+  initial-value: 0.5;
+  inherits: false;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes opacityChange {to {--opacity: 1; } }
+@keyframes rotate {to {--angle: 360deg; } }
+.rainbow {animation: rotate 4s linear infinite, opacityChange 3s infinite alternate; }
+/* Hide the warning */
+.warning {display: none; }}
+#scrollToTop.show {opacity: 1; visibility: visible; }
+#scrollToTop:active {background-color: #aeb3be; }
+#scrollToTop:hover {cursor: pointer; background-color: #aeb3be; }
+#scrollToTop {display: inline-block; background-color: #aeb3be; width: 43px; height: 43px; padding: 6px; text-align: center; border-radius: 4px; position: fixed; bottom: 65px; right: 30px; transition: background-color .3s, opacity .5s, visibility .5s; opacity: 0; visibility: hidden; z-index: 1000; vertical-align: middle; }
+
+/* CTA Banner First */
+
+.cta-box{height: 145px; width: 780px; background: #005da6; border-radius: 10px; display: inline-block; position: relative; overflow: hidden; }
+
+/* animation 1 */
+.box {position: absolute; top: 0; transform: rotate(80deg); left: 0; z-index: 0; }
+.wave {position: fixed; top: 0; left: 0; opacity: .4; position: absolute; top: 3%; left: 10%; background: #0af; width: 255px; height: 200px; transform-origin: 50% 48%; border-radius: 43%; animation: drift 7000ms infinite linear; top: -63px; left: -50px; }
+.wave.-three {animation: drift 7500ms infinite linear; position: fixed; background-color: #77daff; }
+.wave.-two {animation: drift 3000ms infinite linear; opacity: .1; background: black; position: fixed; }
+.box:after {content: ''; display: block; left: 0; top: 0; width: 100%; height: 100%; z-index: 11; transform: translate3d(0, 0, 0); }
+@keyframes drift {from { transform: rotate(0deg); } from { transform: rotate(360deg); } }
+
+/*LOADING SPACE*/
+.titel{color: #fff; font-size: 30px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 1; }
+.contain {animation-delay: 4s; z-index: 1000; position: fixed; top: 0; left: 0; bottom: 0; right: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-flow: row nowrap; flex-flow: row nowrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background: #25a7d7; background: -webkit-linear-gradient(#25a7d7, #2962FF); background: linear-gradient(#25a7d7, #25a7d7); }
+.icon {width: 100px; height: 100px; margin: 0 5px; }
+.icon:nth-child(2) img {-webkit-animation-delay: 0.2s;animation-delay: 0.2s}
+.icon:nth-child(3) img {-webkit-animation-delay: 0.3s;animation-delay: 0.3s}
+.icon:nth-child(4) img {-webkit-animation-delay: 0.4s;animation-delay: 0.4s}
+.icon img {-webkit-animation: anim 2s ease infinite; animation: anim 2s ease infinite; -webkit-transform: scale(0,0) rotateZ(180deg); transform: scale(0,0) rotateZ(180deg); }
+@-webkit-keyframes anim{0% {-webkit-transform: scale(0,0) rotateZ(-90deg); transform: scale(0,0) rotateZ(-90deg);opacity:0 } 30% {-webkit-transform: scale(1,1) rotateZ(0deg); transform: scale(1,1) rotateZ(0deg);opacity:1 } 50% {-webkit-transform: scale(1,1) rotateZ(0deg); transform: scale(1,1) rotateZ(0deg);opacity:1 } 80% {-webkit-transform: scale(0,0) rotateZ(90deg); transform: scale(0,0) rotateZ(90deg);opacity:0 } }
+@keyframes anim{
+    0% {-webkit-transform: scale(0,0) rotateZ(-90deg); transform: scale(0,0) rotateZ(-90deg);opacity:0 } 30% {-webkit-transform: scale(1,1) rotateZ(0deg);transform: scale(1,1) rotateZ(0deg);opacity:1 } 50% {-webkit-transform: scale(1,1) rotateZ(0deg); transform: scale(1,1) rotateZ(0deg);opacity:1 } 80% {-webkit-transform: scale(0,0) rotateZ(90deg); transform: scale(0,0) rotateZ(90deg);opacity:0 } }
+
+/* END CTA Banner First CSS */
+
+/* cta banner modal 1 start */
+.cta-modal .modal-body{padding: 0; }
+.cta-modal .modal-body p.modalHead{font-size: 18px; font-weight: 500 }
+.cta-modal .form-group{margin-bottom: 5px; padding: 0 25px; position:relative }
+.cta-modal .form-group label{margin-bottom: 4px; font-size: 12px; }
+.cta-modal .form-group input{font-size: 16px; color: #5d5d5d; padding: 6px 35px 6px 7px }
+.cta-modal .modal-dialog {margin: 70px auto 0; width: 300px; }
+.cta-modal form svg {position: absolute; bottom: 7px; right: 35px; }
+.cta-b1-modal form button.requestFreeSample{background: #ffd814; border-radius: 0 0 4px 0; display: block; width: 100%; font-size: 17px; font-weight: 500; border-color: #ffd814; margin: 12px 0 0; padding: 10px 0; }
+.cta-modal form button.requestFreeSample:focus{box-shadow: none; }
+.cta-b1-modal form button.requestFreeSample{background: #ffa41c; border-radius: 0 0 4px 4px; display: block; width: 100%; font-size: 17px; font-weight: 500; border-color: #ffa41c; margin: 12px 0 0; padding: 10px 0; }
+
+/* cta banner modal 2 start */
+.cta-b2-modal form button.requestFreeSample{background: #ffc107; border-radius: 0 0 4px 4px; display: block; width: 100%; font-size: 17px; font-weight: 500; border-color: #ffc107; margin: 12px 0 0; padding: 10px 0; color:#111 }
+
+/* cta banner modal 3 start */
+.cta-b3-modal form button.requestFreeSample{background: #ffc107; border-radius: 0 0 4px 4px; display: block; width: 100%; font-size: 17px; font-weight: 500; border-color: #ffc107; margin: 12px 0 0; padding: 10px 0; color:#111 }
+
+/* cta banner modal 4 start */
+.cta-b4-modal form button.requestFreeSample{background: #ffc107; border-radius: 0 0 4px 4px; display: block; width: 100%; font-size: 17px; font-weight: 500; border-color: #ffc107; margin: 12px 0 0; padding: 10px 0; color:#111 }
+
+.report-details-topsec .report-heading {padding: 0 0 12px; background-size: cover; border-radius: 7px; position: relative; }
+/*.report-details-topsec .report-heading svg {height: 100%; width: 100%; position: absolute; top: 0; border-radius: 11px; transform: scaleX(-1) rotate(180deg); }
+*/
+@media(max-width:768px){
+    .report-details-tabs .right-side-section .get-started-box .btn-purchesReport {width: 260px; }
+    .report-details-tabs .right-side-section .Customization-box .btn-Customization {width: 260px; }
+    .right-side-section .let-connect .btn-connect-Auth {width: 260px; }
+}

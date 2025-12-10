@@ -1,0 +1,72 @@
+﻿.marketByteBar .txtBlue,.txtCompanies{font-weight:500;color:#385F99;}
+.txtCompanies{font-size: 20px;}
+.reportDescBox section, .reportDescBox{padding:0;margin-bottom:20px;}
+.reportDescBox p a{font-weight:500;border-bottom:1px solid #337ab7;}
+.reportDescBox p a:hover{text-decoration:none;}
+.reportDescBox{color:#000;}
+.sampleRequestSec{background-color:#05427e;background-image: repeating-linear-gradient(90deg,#5a7a93 ,#446a87 2px,#446a87 3%);}
+.customRequestSec{background-color: #535e78;background-image: repeating-linear-gradient(90deg,#7a858e ,#535e78 2px,#535e78 3%);background-blend-mode: multiply;}
+.expertRequestSec{background: #60686b;}
+.cusButtoncontent{padding: 30px 10px;margin:20px 0;}
+.cusButtoncontent .secHeading {font-weight:400;font-size:1.3em;}
+.reportDescBox h3{font-weight:400;font-size:21px;}
+.cusButtoncontent p {font-weight: 300;}
+.methlogyBox{margin:20px auto;float:none;}
+.actionContentBox img{margin:10px auto;}
+.reportDescSec table p strong{color:#0868ad;}
+.reportDescSec p strong{color:#0c75d1;}
+.reportDescBox table{width:100%;max-width: 100%;border-collapse:separate;margin:20px 0;background-color:#edfcff;}
+.reportDescBox table td{padding:4px 10px;vertical-align:top;border:0.5px solid #ccc;}
+.reportDescBox table td ul{text-align:left; padding-left: 14px;}
+.reportDesLink ::-webkit-scrollbar{width:3px}
+.reportDesLink ::-webkit-scrollbar-thumb{background:#00aae0;border-radius:10px}
+.reportDesLink ::-webkit-scrollbar-track{box-shadow:inset 0 0 5px #eee;border-radius:10px}
+.relatedReportItem{background:#fff;width:95%;padding:.5em 1em;margin-bottom:2em;margin:auto;min-height:200px;}
+.badgSuccess{background-color:#00aae0;color:#fff;padding:5px 10px;display:inline-block;font-size:12px;line-height:20px;}
+.recommendationsSec h4, .recommendationsSec h3.h3{font-size:1em;margin:0;color:#212529;}
+.recommendationsSec h4 a{color:#212529;}
+.recommendationsSec .pubDate{font-size:13px;color:#666;}
+.modalCustom .modal-dialog{max-width:458px;margin:60px auto 0;}
+.requestform{padding:30px;background:#fff;width:100%;max-width:455px;margin:0 auto;border-radius:5px;box-shadow:0 15px 30px rgba(73, 123, 146, 0.2);}
+h2{font-size:24px;font-weight:400;}
+.requestform input::placeholder {font-size:15px;color:#666;}
+.requestform .form-field{position:relative;margin-bottom:30px}
+.requestform .form-field .form-control{border:0;border-bottom:1px solid #b1bfcd;border-radius:0;transition:all .33s ease;box-shadow:none;}
+.requestform .form-field .form-control.active{border-color:#102d5e}
+.requestform .form-field .form-control:focus:not([readonly]){border-color:#fe4e00;border-width:2px;box-shadow:none;}
+.requestform .form-field .form-label{position:absolute;top:.375rem;left:.75rem;transition:all .33s ease;color:#666;font-size:15px;font-weight:400;text-transform:capitalize;cursor:text}
+.requestform .form-field .form-label[for=captcha-form]{left:calc(100px + 1.5rem);}
+.requestform .form-field .form-control:focus:not([readonly])+.form-label{transform:translateY(-30px) scale(.8);color:#102d5e;left:0;-webkit-transform:translateY(-30px) scale(.8);-moz-transform:translateY(-30px) scale(.8);-o-transform:translateY(-30px) scale(.8);-ms-transform:translateY(-30px) scale(.8)}
+.requestform .form-field .text-label{font-size:12px;color:#102d5e}
+.requestform .form-field .form-control.active+.form-label{transform:translateY(-30px);color:#102d5e;-webkit-transform:translateY(-30px);-moz-transform:translateY(-30px);-o-transform:translateY(-30px);-ms-transform:translateY(-30px)}
+.requestform .form-field .form-control:focus+.form-label.message-label{width:150%;padding-left:0;padding-right:0;left:0;transform:translateY(-30px) scale(.8);line-height:normal;margin-left:-60px;-webkit-transform:translateY(-30px) scale(.8);-o-transform:translateY(-30px) scale(.8);-moz-transform:translateY(-30px) scale(.8);-ms-transform:translateY(-30px) scale(.8)}
+.message-label{font-size:14px;color:#102d5e;line-height:normal;font-weight:400;}
+.mandatory{font-weight:400;}
+.requestform textarea{resize: vertical;}
+.requestform .form-field #message.form-control.active+.form-label.message-label{font-size:12px;line-height:normal}
+.requestform button{display:inline-block;padding:6px 30px;color:#fff;background:#df9926;transition:all .33s ease;border:0;border-radius:5px;cursor:pointer;margin-top:2.5rem;font-weight:400;}
+.requestform button:hover{background:#fe4e00}
+.requestform input[type=text]#captcha-form{width:calc(100% - 120px);float:left}
+.country-code{height:34px;background-color:transparent;float:left;width:150px;border:0;border-bottom:1px solid #b1bfcd;line-height:1.5;padding:.55rem .375rem;border-radius:0;font-size:15px;color:#666;margin-right:15px}
+select.countryCode:focus {outline:none;}
+.requestform .form-field .form-control.active+.form-label{transform:translateY(-30px);left:0;color:#102d5e;-webkit-transform:translateY(-30px);-moz-transform:translateY(-30px);-o-transform:translateY(-30px);-ms-transform:translateY(-30px);}
+#captcha{display:inline-block;float:left;width:110px;}
+#code{padding:6px 10px;background:url(../images/captcha-bg.png) 0 0 no-repeat;color:#2f2f2f;font-size:20px;letter-spacing:3px;font-weight:900;}
+#captcha input{background:url(../images/refresh.png)no-repeat scroll 0 0 transparent;margin:0 10px;border:medium none;cursor:pointer;width:15px;vertical-align:bottom;}
+.fixedBottomButton .btn{width:100%;border-radius:0;}
+.fixedBottomButton{display:none;}
+.fixedBottomButton.active{position:fixed;bottom:0;width:100%;display:block;}
+.cusButtonSec .btn{background-color:#60ac2d;color:#fff;border:2px solid #fff;}
+.cusButtonSec .btn:hover{background-color:#60ac2d;color:#fff;border:2px solid #fff;}
+.txtCustom{color:#106382;font-size:22px;font-weight:500;}
+.accordFAQBox .panel-default svg {float:right;margin-top:6px;width:9%;}
+.accordFAQBox .panel-heading a:not(.collapsed) svg{transform: rotate(180deg);}
+@media (max-width:767px){
+.relatedReportItem{min-height:100%;margin-bottom:24px;}
+.country-code{width:90px;}
+.reqCustomSec .modal-dialog{max-width:458px;margin:auto;width:100%;}
+#captcha input, #code{float:left;}
+#captcha input{margin:0 5px;}
+#code{width: 64px;}
+}
+

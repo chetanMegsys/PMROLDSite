@@ -1,0 +1,95 @@
+﻿a:focus, a:hover{text-decoration: none;}
+.aboutBox h3::after{content:"";border-bottom:2px solid #fff;display:block;width:60px;margin:8px 0;}
+.aboutBox h3::before{content:"";border-left:12px solid #fb5900;border-top:7px solid transparent;border-bottom:7px solid transparent;display:inline-block;margin-left:-20px;margin-right:5px;}
+.aboutBox{padding:5px 30px 5px 40px;}
+.aboutImgBox img{width:100%;margin:auto;}
+.greenBox{background-color:#7ac9b3;}
+.brownBox{background-color:#c8ad90;}
+.aboutBox .btn{padding:6px 30px;}
+.aboutBox h3{font-size:22px;font-weight: 400;}
+.aboutIcon{background-image:url("../images/about-sprite.png");background-repeat:no-repeat;height:40px;width:50px;display:block;}
+.aboutListSec .aboutBox .aboutIcon-1{background-position:-13px -2px;}
+.aboutListSec .aboutBox .aboutIcon-2{background-position:-13px -54px;height:50px;}
+.aboutListSec .aboutBox .aboutIcon-3{background-position:-14px -116px;}
+.aboutListSec .aboutBox .aboutIcon-4{background-position:-10px -168px;}
+.aboutListSec .aboutBox .aboutIcon-5{background-position:-10px -226px;}
+.threePoints{background-color:#ececec;}
+.threePoints .threePtsBox p.h4{font-weight: 400;font-size: 20px;}
+.conatctBanner{background-color:#2358a8;}
+.borderBlueCenter{font-size: 24px;font-weight:400}
+.loactionSec{background-color:#f5f5f5;padding-top:30px}
+.loactionSec a{color:#0065d1;font-weight: 500}
+.loactionSec .secHeadingLeft{font-size:20px;}
+.positionRelative{position:relative;}
+.loactionSec .secHeadingLeft:after{margin:6px 0;width:90px;}
+.contactBtn{border:2px solid #007db3;color:#007db3!important;font-weight:500;display:inline-block;border-radius:6px;background:transparent;}
+.contactBtn:hover{border:2px solid #007db3;color:#007db3!important;background:transparent}
+.loacBoxAdd{display:table;min-height: 220px;}
+.loacBoxAdd:before{content: "";background-image:url(../icons/geo-alt-white.svg);background-repeat:no-repeat;background-position:0 6px;background-size:22px;height:33px;width:30px;display:table-cell;}
+.loacBoxAdd:after{content:"";border-left:1px solid #ccc;height:130px;display:inline-block;position:absolute;top:40px;right:15px;}
+.loacBoxAddLast.loacBoxAdd:after{content:none;}
+.solnByClientSec .bgGreen{background-color:#b9e0cb;}
+.solnByClientSec .bgBlue{background-color:#badced;}
+.solnByClientSec .bgBlue .borderBlue::after,
+.solnByClientSec .bgGreen .borderBlue::after{background: #fff;}
+.solnByClientSec img{margin: auto;}
+.solnByClientSec .service .bgGreen, .solnByClientSec .service .borderBlue::after{background: #000;}
+.solnByClientSec h3.borderBlue{font-size:22px;font-weight:400}
+.service{padding-left:20px;padding-right:20px;}
+.service h3{margin-top:0;font-weight: 400;font-size: 24px;}
+.staticConatctSec .h2.borderBlue::after{background: #a1a1a1;width:100px;}
+ul > li.secSubHeadingLeft{font-size:21px;font-weight:400;margin-top:20px;}
+.secSubHeadingLeft ul li {font-size:16px;font-weight:400;margin-top:0px}
+.btnStatic{background-color:#2766B2;border:2px solid #2766B2;color:#fff;padding: 12px 30px;display: inline-block;font-weight: 400;line-height: 1.5;box-shadow: 12px 12px 24px rgb(15 60 91 / 18%);text-decoration: none;transition: none;}
+.btnStatic:hover{border:2px solid #2766B2;color:#fff;background-color:#2766B2}
+.staticPageSec .secHeadingLeft{font-size:24px;}
+
+.clientEndorsList li{border:2px solid #eee;padding:40px;border-radius:10px;position:relative;margin-bottom:40px;}
+.clientEndorsList li:after, .clientEndorsList li:before{content:"";background-image:url(../images/quotes.png);background-repeat:no-repeat;position:absolute;display:block;height:28px;width:47px;}
+.clientEndorsList li:before{top: -16px;left: 20px;}
+.clientEndorsList li:after{bottom:-13px;right:20px;}
+.engagementModeBox{padding: 24px;}
+.engagementModeBox img{margin:auto;}
+.engagementModeBox:hover{box-shadow: 0px 0px 20px 10px rgba(15, 60, 91, 0.08);}
+.clientEndorsementsSec .borderBlue::after{margin:14px 0;background: #a1a1a1;width:80px;}
+.threeEngagtModeBox{padding:20px 15px 40px;}
+.threeEngagtModeBox p{font-weight:400}
+.threeEngagtModeBox h3{font-weight:400;font-size:20px}
+.threeEngagtModeBox .bg-white:hover{box-shadow: 0px 0px 20px 10px rgba(15, 60, 91, 0.08);}
+.careerImg{text-align:center;padding: 25px;}
+.careerImg .secHeading,.believeSec .secHeadingLeft{font-size:22px;}
+.careerMainBoxSec{border:1px solid #eee;padding:0;}
+.careerMainBoxSec .row{padding:0 30px;}
+.careerBox{border:1px solid #eee;padding:10px 15px;margin-bottom:30px;}
+.careerBox .secHeadingLeft{font-size:22px;max-width:100%;}
+.careerBox:hover{box-shadow: none;}
+.careerBox .secHeadingLeft:after{width:80px;margin:6px 0;}
+.careerOpenBtn .openings {margin: 10px; background-color: #00aae0; border: 2px solid #00aae0; color: #000; padding: 12px 30px; box-shadow: 12px 12px 24px rgb(15 60 91 / 18%); border-radius: 50px; display: inline-block; font-weight: 400; line-height: 1.5; text-decoration: none; }
+.careerOpenBtn .btnLinkedin {background-color: #2766B2; border: 2px solid #2766B2; color: #fff; display: inline-block; padding: 12px 30px; margin: 10px; line-height: 1.5; text-decoration: none; box-shadow: 12px 12px 24px rgb(15 60 91 / 18%);border-radius: 50px; }
+.reportList .listTitle.secHeadingLeft{font-size:20px;color:#000000;}
+.reportList .listTitle.secHeadingLeft:hover{color:#23527c}
+.reportList .listTitle.secHeadingLeft{text-decoration:none;}
+.reportList .contentBox{padding:15px 20px;margin-top:20px;}
+.siteMapTable h1{font-weight:400;font-size:24px}
+.siteMapTable ul.siteMapList li a,.siteMapTable ul.siteMapList li span{font-weight:400}
+@media (max-width:991px){
+.loactionSec .secHeadingLeft{font-size: 18px;}
+.staticConatctSec .h2.borderBlue::after{margin:15px auto;}
+.staticConatctSec{text-align:center;}
+.engagementModeBox h2{font-size:24px;font-weight: 400;}
+.threeEngagtModeBox .bg-white{min-height:100%;}
+.believeRecImg img{margin:auto;}
+.careerImg {margin:0 auto;padding:30px 5px;}
+}
+@media (max-width:767px){.aboutBox{padding:5px 15px 5px 25px;}
+.aboutBox p{font-size:15px;line-height:30px;}
+.clientSec{padding-top:0;}
+.threePtsBox,.loacBoxAdd{margin-bottom:20px;}
+.loacBoxAdd:after{content:none;}
+.staticConatctSec .h2{font-size:24px;font-weight:400}
+.staticPageSec .secHeadingLeft{font-size:21px;}
+.careerMainBoxSec {border: none;padding:0 30px;}
+.careerMainBoxSec .row{padding:0;}
+.careerBox {min-height: 100%;}
+.loacBoxAdd {min-height: 100%;}
+}

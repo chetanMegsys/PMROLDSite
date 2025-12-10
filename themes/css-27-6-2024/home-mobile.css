@@ -1,0 +1,40 @@
+.navbar-expand-lg .navbar-nav .nav-link {color: #545454;}
+.service-title{ font-size:1.5rem; color:#2e61ae;}
+.service-title:hover{ font-weight:600;}
+.service-img{border-top-right-radius:10px;border-top-left-radius:10px;}
+.pmr-service{border-radius:5px;padding:22px;background:#fff;}
+.testimonial-inner .tour-desc{border-radius: 5px;padding: 20px}.link-name{font-size: 16px;color: #000; font-weight:600;}
+.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal !important;}
+.section3 .categeries {border: 1px solid #ececec;border-radius: 5px; padding: 15px;}
+.section3{ padding: 0px 0 30px 0;}
+.section3 .categeries h3 a:hover{color:#212529 } 
+.btn-viewall-middle .btn-viewall {background-color: #007db3; border-radius: 23px; color: #fff; padding: 6px 40px; font-weight: 400;transition: none;}
+.section4{padding: 30px 0 30px 0; background-image: url(../image/home/updated-report-bg.png); }
+.section4 .updated-rep-box{border-radius: 10px;background-color: #337ab7;padding: 19px 32px;}
+.section5 {padding: 30px 0 50px 0;background-color: #2255a7;}
+.secHeading{font-weight: 400; max-width: 615px; margin: 0 auto 20px; line-height: 30px;} 
+.section5 h2 span{color:#fff;font-weight: 400} 
+.section5 ul li:first-child .headIcon {background-position: -101px -5px; }
+.section5 ul li:nth-child(2) .headIcon {background-position: -102px -165px; } 
+.section5 ul li:nth-child(3) .headIcon {background-position: -105px -238px; }
+.section5 ul li:nth-child(4) .headIcon {background-position: -107px -312px; } 
+.section5 ul li .headIcon {height: 58px; width: 75px; } 
+.headIcon {background-image: url(../image/home/home-sprite1.png); height: 70px; width: 70px; display: block; margin: 4px auto; } 
+#reactagele{width: 200px; height: 100px; border:1px solid red }
+.rect-box{background-image: url(../image/home/rect-box.png); background-repeat: no-repeat; background-size: 90%; background-position: 54% 55%; } 
+.section6{padding: 30px 0 30px 0; } 
+.trustSecRow .trustBox {vertical-align: top; margin: 18px; display: inline-block; min-height: 181px; } 
+.trustBox {border: 1px solid #b1b1b1; margin: 20px 10px; position: relative; } 
+.trustBox .numb {background-color: #007aa8; padding: 0px 10px; border-radius: 100%; color: #fff; position: absolute; width: 28px; height: 28px; top: -15px; left: -15px; font-size: 16px; } 
+.trustBox .compName span:before {content: ""; background-color: #00aae0; width: 40px; height: 2px; display: inline-block; vertical-align: middle; margin-right: 10px; }
+.about-us-sec .right-side-sec{background-color: #007db3; padding: 50px 15px; margin-top: 110px; } 
+.about-us-sec .right-side-sec img{position: absolute; top: -113px; left: 50%; transform: translate(-50% , 0); }
+.about-us-sec .right-side-sec .about-us-text{text-align:center}
+.about-us-sec .right-side-sec .about-us-text .btn-aboutPMR{border-radius: 23px; background-color: #ffffff; padding: 6px 40px;transition: none;}
+.section8{padding: 30px 0 0 0; } 
+.searchBannerBottom .borderSpan {border: 1px dashed; height: 55px; width: 55px; display: inline-block; border-radius: 100%; }
+.searchBannerBottom .advIcon {background-image: url(../image/home/home-sprite1.png); height: 45px; width: 47px; display: block; margin: 4px auto; } 
+.searchBannerBottom [class*="col-"]:nth-child(1) .advIcon {background-position: -646px -10px; } 
+.searchBannerBottom [class*="col-"]:nth-child(2) .advIcon {background-position: -648px -69px;}
+.searchBannerBottom [class*="col-"]:nth-child(3) .advIcon {background-position: -648px -122px;}
+

@@ -1,0 +1,100 @@
+﻿.aboutBox h3::after{content:"";border:1px solid #fff;display:block;width:60px;margin:8px 0;}
+.aboutBox h3::before{content:"";border-left:12px solid #fb5900;border-top:7px solid transparent;border-bottom:7px solid transparent;display:inline-block;margin-left:-20px;margin-right:5px;}
+.aboutImgBox img{width:100%;max-height:320px;min-height:320px;}
+.aboutBox{padding:5px 30px 5px 40px;max-height:320px;min-height:320px;}
+.greenBox{background-color:#7ac9b3;}
+.brownBox{background-color:#c8ad90;}
+.aboutBox .btn{padding:6px 30px;}
+.aboutIcon{background-image:url("../images/about-sprite.png");background-repeat:no-repeat;height:40px;width:50px;display:block;}
+.aboutListSec .aboutBox .aboutIcon-1{background-position:-13px -2px;}
+.aboutListSec .aboutBox .aboutIcon-2{background-position:-13px -54px;height:50px;}
+.aboutListSec .aboutBox .aboutIcon-3{background-position:-14px -116px;}
+.aboutListSec .aboutBox .aboutIcon-4{background-position:-10px -168px;}
+.aboutListSec .aboutBox .aboutIcon-5{background-position:-10px -226px;}
+.threePoints{background-color:#ececec;}
+.threePoints .threePtsBox .h4{font-size: 20px!important;}
+.conatctBanner{
+	/* background: url(../images/bannerBgIcon.png) #282C7D no-repeat;
+	background-size: cover;background-position: center; */
+	padding: 10px 20px;
+}
+
+.solnByClientSec .bgGreen{background-color:#b9e0cb;}
+.solnByClientSec .bgBlue{background-color:#badced;}
+.solnByClientSec .bgBlue .borderBlue::after,
+.solnByClientSec .bgGreen .borderBlue::after{background: #fff;}
+.solnByClientSec img{padding-top:20px;}
+.solnByClientSec .service .bgGreen, .solnByClientSec .service .borderBlue::after{background: #000;}
+.service{padding-left:80px;padding-right:20px;}
+.service h3{margin-top:0;}
+.service h3:before{content:"";background-image: url(../images/services-sprite.png);background-repeat:no-repeat;height:45px;width:45px;margin-left:-52px;position:absolute;}
+.service-2 h3:before {background-position: 0 -48px;}
+.service-3 h3:before {background-position: 0 -95px;}
+.service-4 h3:before {background-position: 0 -150px;}
+.service-5 h3:before {background-position: 0 -204px;}
+.contactBtn{border: 2px solid #007db3;color: #007db3 !important;font-weight: 500;display: inline-block;border-radius: 6px;}
+.contactBtn:hover{background-color: #007db3; color: #fff !important;text-decoration: none;}
+.staticConatctSec .h2.borderBlue::after{background: #a1a1a1;width:100px;}
+.btnStatic{background-color:#2766B2;border:2px solid #2766B2;color:#fff;padding: 12px 30px;display: inline-block;font-weight: 400;line-height: 1.5;box-shadow: 12px 12px 24px rgb(15 60 91 / 18%);text-decoration: none;transition: none;}
+.btnStatic:hover{border:2px solid #2766B2;color:#2766B2;background-color:#fff;text-decoration: none;}
+.staticPageSec .secHeadingLeft{font-size:24px;}
+.secSubHeadingLeft {font-size: 22px;font-weight: 400;}
+.secSubHeadingLeft ul li {font-size: 16px;font-weight: 400;}
+
+.clientEndorsList li{border:2px solid #eee;padding:40px;border-radius:10px;position:relative;margin-bottom:40px;}
+.clientEndorsList li:after, .clientEndorsList li:before{content:"";background-image:url(../images/quotes.png);background-repeat:no-repeat;position:absolute;display:block;height:28px;width:47px;}
+.clientEndorsList li:before{top: -16px;left: 20px;}
+.clientEndorsList li:after{bottom:-13px;right:20px;}
+.engagementModeBox{margin: 20px 0;padding: 24px;}
+.clientEndorsementsSec .borderBlue::after{margin:14px 0;background: #a1a1a1;width:80px;}
+.threeEngagtModeBox{padding:20px 30px 40px;}
+.threeEngagtModeBox .bg-white{min-height: 460px;}
+.threeEngagtModeBox h3{font-size: 20px !important;}
+.careerImg{background-color:#fff;position:relative;margin:-75px auto 0;text-align:center;max-width:900px;padding:70px 70px 40px;}
+.careerMainBoxSec{border:1px solid #eee;padding:0;}
+.careerMainBoxSec .row{padding:0 30px;}
+.careerBox{min-height:250px;border:1px solid #eee;padding:20px;margin-bottom:30px;}
+.careerBox .secHeadingLeft{font-size:22px;}
+.careerBox:hover{box-shadow: 0px 0px 20px 10px rgba(15, 60, 91, 0.08);}
+.careerBox .secHeadingLeft:after{width:80px;margin:6px 0;}
+.careerOpenBtn .btn{margin:10px;}
+.careerOpenBtn .btnLinkedin{background-color:#2766B2;border:2px solid #2766B2;color:#fff;display: inline-block;padding: 12px 30px;margin: 10px;line-height: 1.5;text-decoration: none;box-shadow: 12px 12px 24px rgb(15 60 91 / 18%);border-radius: 50px;}
+.careerOpenBtn .btnLinkedin:hover{background-color:#fff;color:#2766B2;}
+.careerOpenBtn .openings{margin:10px; background-color: #00aae0; border: 2px solid #00aae0; color: #000; padding: 12px 30px; box-shadow: 12px 12px 24px rgb(15 60 91 / 18%);  border-radius: 50px; display: inline-block; font-weight: 400; line-height: 1.5;text-decoration: none; }
+.careerOpenBtn .openings:hover{background-color: #fff;/*color: #00aae0;*/color: #000;}
+.staticContent{z-index:1;}
+.reportList .listTitle.secHeadingLeft{font-size:20px;color:#000000;}
+.reportList .listTitle.secHeadingLeft:hover{color:#3e57d4}
+.reportList .listTitle.secHeadingLeft{text-decoration:none;}
+.reportList .contentBox{padding:15px 20px;margin-top:20px;}
+@media (min-width:1440px){.shapeTop,.shapeBottom{transform:skewY(2.5deg);-ms-transform:skewY(2.5deg);-webkit-transform:skewY(2.5deg);margin-bottom:-60px;margin-top:60px;}
+.shapeRightTop,.shapeRightBottom{transform:skewY(-2.5deg);-ms-transform:skewY(-2.5deg);-webkit-transform:skewY(-2.5deg);margin-bottom:-60px;margin-top:60px;}
+.shapeBottom, .shapeRightBottom{margin-bottom:60px;margin-top:-60px;}
+}
+@media (max-width:1440px){.careerBox{min-height:270px;}
+	}
+@media (max-width:991px){.aboutBox p{font-size:14px;line-height:20px;}
+.loactionSec .secHeadingLeft{font-size: 18px;}
+.solnByClientSec img{padding-top:0;margin:auto;}
+.staticConatctSec .h2.borderBlue::after{margin:15px auto;}
+.staticConatctSec{text-align:center;}
+.engagementModeBox img{margin:auto;}
+.threeEngagtModeBox .bg-white {margin-bottom: 25px;}
+.engagementModeBox h2{font-size:24px;}
+.threeEngagtModeBox .bg-white{min-height:100%;}
+.believeRecImg img{margin:auto;}
+.careerImg {margin:0 auto;padding:30px 5px;}
+}
+@media (max-width:767px){.aboutBox{padding:5px 15px 5px 25px;max-height:100%;min-height:100%;}
+.aboutImgBox img{width:auto;max-height:100%;min-height:100%;margin:auto;}
+.aboutBox p{font-size:15px;line-height:30px;}
+.clientSec{padding-top:0;}
+.threePtsBox,.loacBoxAdd{margin-bottom:20px;}
+.loacBoxAdd:after{content:none;}
+.staticConatctSec .h2{font-size:24px;}
+.staticPageSec .secHeadingLeft{font-size:21px;}
+.careerMainBoxSec {border: none;padding:0 30px;}
+.careerMainBoxSec .row{padding:0;}
+.careerBox {min-height: 100%;}
+.loacBoxAdd {min-height: 100%;}
+}
